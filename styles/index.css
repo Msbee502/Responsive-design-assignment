@@ -92,19 +92,23 @@
     
   }
   .content{
+    margin-left: 25px;
+    margin-right: 25px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     text-align: center;
   }
+ /* .img {object-fit: contain;
+  width: 100%;} Gör så att bilden ändrar storlek efter skärm. This command is much more simple */
 
-
-  @media screen and (max-width: 800px) {
+  /* @media screen and (max-width: 800px) {
     .img {
         background-image: url('../img/Imagetablet.jpg');
     }
-} 
+}  Fråga Michelle varför detta inte funkar */
 
   @media screen and (max-width: 800px){
     .heading {
@@ -116,12 +120,6 @@
         font-size: 36px;
     }       
   }
-  @media screen and (max-width: 800px) {
-    .img {
-        background-image: url('../img/Imagemobile.png');
-    }
-} 
-
   @media screen and (max-width: 320px){
     p {
         font-size: 12px;
