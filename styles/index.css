@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-evenly;
     
+    
   }
 
   .logo {
@@ -112,6 +113,7 @@
         font-size: 72px;
     }
   }
+
   @media screen and (max-width: 390px){
     .heading {
         font-size: 26px;
