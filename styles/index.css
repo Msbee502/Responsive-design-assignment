@@ -73,6 +73,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   h1{
@@ -82,28 +84,19 @@
   }
   p {
     font-size: 22px;
+    width: 574px;
   }
-  .container-content {
-    margin: 20px;
-    max-width: 864px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-  }
+ 
   .content{
     margin-left: 25px;
     margin-right: 25px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     text-align: center;
   }
-  .imgmobile {
-    width: 256px;
-  }
+  
  /* .img {object-fit: contain;
   width: 100%;} Gör så att bilden ändrar storlek efter skärm. This command is much more simple */
 
@@ -113,6 +106,7 @@
     }
 }  Fråga Michelle varför detta inte funkar */
 
+  
   @media screen and (max-width: 800px){
     .heading {
         font-size: 72px;
