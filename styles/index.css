@@ -21,26 +21,15 @@
   }
   
   header {
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+   
     background-color: white;
-    margin: 0;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-between; 
+    align-items: center;
     
   }
 
-  .logo {
-    display: flex;
-    justify-content: left;    
-  }
-
   .nav {
-    max-width: 400px;
-    width: 100%;
-    overflow: hidden;
-    float: left;
     font-family: "Source Sans 3", sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -49,13 +38,12 @@
   }
 
   .list {
-    width: 400px;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
   }
   .nav-li {
     list-style: none;
-    float: left;
     font-family: "Source Sans 3", sans-serif;
     color: black;
     font-size: 16px;
